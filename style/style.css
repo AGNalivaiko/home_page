@@ -1,0 +1,413 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish";
+}
+
+.main_container {
+  max-width: 1920px;
+  max-height: 1200px;
+}
+
+.header {
+  display: flex;
+  padding-top: 28px;
+}
+.header .youTubeLogo {
+  width: 255px;
+  height: 100%;
+  display: flex;
+  gap: 28px;
+  padding-left: 32px;
+}
+.header .search_and_userPic {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+.header .search_and_userPic .search {
+  width: 50%;
+}
+.header .search_and_userPic .search .search_logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #ebebeb;
+  border-radius: 15px;
+  height: 27px;
+}
+.header .search_and_userPic .search .search_logo input {
+  width: 90%;
+  background-color: #ebebeb;
+  border: none;
+  height: 100%;
+}
+.header .search_and_userPic .personIcon {
+  width: 303px;
+  height: 100%;
+  display: flex;
+  margin-right: 15px;
+}
+.header .search_and_userPic .personIcon .user_pic {
+  margin-left: 35px;
+}
+
+.center_container {
+  display: flex;
+}
+.center_container .aside {
+  height: 1084px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 35px;
+}
+.center_container .aside .home {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.center_container .aside .home p {
+  font-size: 16px;
+  margin-left: 10px;
+  color: red;
+}
+.center_container .aside .trending {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .trending p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .subscriptions {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 57px;
+}
+.center_container .aside .subscriptions p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .library {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .library p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .history {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .history p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .Watch_later {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .Watch_later p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .favourites {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .favourites p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .Liked_videos {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .Liked_videos p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .music {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .music p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .games {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.center_container .aside .games p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .show_more {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 52px;
+}
+.center_container .aside .show_more p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .GS {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+.center_container .aside .GS p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .NF {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.center_container .aside .NF p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .BB {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.center_container .aside .BB p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .EC {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.center_container .aside .EC p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .EM {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.center_container .aside .EM p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .LB {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+.center_container .aside .LB p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container .aside .settings {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 104px;
+}
+.center_container .aside .settings p {
+  font-size: 16px;
+  margin-left: 10px;
+}
+.center_container main {
+  width: 100%;
+}
+.center_container aside {
+  width: 15.5%;
+}
+.center_container .main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.center_container .main .Dollie_Blair {
+  padding-top: 25px;
+}
+.center_container .main .Dollie_Blair .DB_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+}
+.center_container .main .Dollie_Blair .DB_down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.center_container .main .recommended .recommended_up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 150px;
+  margin-top: 65px;
+}
+.center_container .main .recommended .recommended_up h2 {
+  font-size: 26px;
+}
+.center_container .main .recommended .recommended_down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.center_container .main .Food_and_Drinks .FD_up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 150px;
+}
+.center_container .main .Food_and_Drinks .FD_up .sub {
+  display: flex;
+  width: 17%;
+  justify-content: space-between;
+}
+.center_container .main .Food_and_Drinks .FD_down {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+@media (max-width: 1910px) {
+  .DB_down,
+  .recommended_down,
+  .FD_down {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .arrows {
+    display: none;
+  }
+}
+@media (max-width: 1230px) {
+  .center_container .aside {
+    padding-left: 0;
+  }
+  .center_container .aside div {
+    display: flex;
+    flex-direction: column;
+  }
+  .main {
+    padding: 0 1vw;
+  }
+}
+@media (max-width: 925px) {
+  aside .aside .aside_container_forHide,
+  .icons_svg {
+    display: none;
+  }
+}
+@media (max-width: 670px) {
+  .recommended,
+  .Food_and_Drinks,
+  .logo_YT {
+    display: none;
+  }
+  .DB_down {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 520px) {
+  .DB_up img,
+  .pic_5,
+  .pic_6 {
+    display: none;
+  }
+  .center_container {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-left: 15px;
+  }
+  .center_container aside .aside {
+    width: 519px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    gap: 5px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+  }
+  .center_container aside .aside .home {
+    margin: 0px;
+  }
+  .main_container header .header .youTubeLogo {
+    padding-left: 10px;
+  }
+  .search input {
+    display: none;
+  }
+  .header .search_and_userPic .search {
+    width: 0;
+  }
+  .search_and_userPic {
+    display: flex;
+    align-items: center;
+  }
+  .search_and_userPic {
+    padding-left: 17%;
+  }
+  .main_container {
+    height: 1024px;
+  }
+  .center_container .main .Dollie_Blair {
+    padding-top: 0;
+  }
+  .center_container aside .aside {
+    height: auto;
+  }
+  .center_container .main .Dollie_Blair .DB_down {
+    margin-left: 15px;
+    margin-bottom: 20px;
+  }
+  .menu_logo {
+    width: 116px;
+    height: 25px;
+  }
+  .user_pic {
+    width: 30px;
+    height: 30px;
+  }
+  .search_logo img {
+    width: 19px;
+    height: 19px;
+  }
+  .header {
+    margin-left: 30px;
+  }
+}/*# sourceMappingURL=style.css.map */
